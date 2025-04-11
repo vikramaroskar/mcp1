@@ -1,2 +1,4 @@
 node_modules/
 build
+mcp-client-typescript/node_modules
+mcp-client-typescript/build
