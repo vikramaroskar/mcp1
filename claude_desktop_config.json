@@ -1,0 +1,19 @@
+{
+    "mcpServers": {
+        "weather": {
+            "command": "node",
+            "args": [
+                "C:\\Users\\vikra\\github\\mcp1\\build\\index.js"
+            ]
+        },
+        "filesystem": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@modelcontextprotocol/server-filesystem",
+                "C:\\Users\\vikra\\Documents",
+                "C:\\Users\\vikra\\Downloads"
+            ]
+        }
+    }
+}
