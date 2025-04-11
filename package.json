@@ -1,0 +1,36 @@
+{
+  "name": "mcp1",
+  "version": "1.0.0",
+  "description": "creating an mcp poc",
+  "type": "module",
+  "bin": {
+    "weather": "./build/index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --build && chmod 755 build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikramaroskar/mcp1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vikramaroskar/mcp1/issues"
+  },
+  "homepage": "https://github.com/vikramaroskar/mcp1#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.9.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "typescript": "^5.8.3"
+  },
+  "files": [
+    "build"
+  ]
+}
