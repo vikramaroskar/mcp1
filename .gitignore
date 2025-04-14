@@ -2,3 +2,7 @@ node_modules/
 build
 mcp-client-typescript/node_modules
 mcp-client-typescript/build
+mcp-llma/node_modules
+mcp-llma/build
+mcp-my-server/node_modules
+mcp-my-server/build

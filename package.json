@@ -4,7 +4,7 @@
   "description": "creating an mcp poc",
   "type": "module",
   "bin": {
-    "weather": "./build/index.js"
+    "weather": "build/index.js"
   },
   "main": "index.js",
   "scripts": {
@@ -24,6 +24,7 @@
   "homepage": "https://github.com/vikramaroskar/mcp1#readme",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.9.0",
+    "mcp-framework": "^0.2.11",
     "zod": "^3.24.2"
   },
   "devDependencies": {
